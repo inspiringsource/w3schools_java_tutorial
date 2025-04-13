@@ -1,0 +1,26 @@
+# Ignore compiled class files
+*.class
+
+# Ignore IDE config files (optional but common)
+*.log
+*.DS_Store
+
+# VS Code settings (optional)
+.vscode/
+
+# macOS system files
+.DS_Store
+
+# IntelliJ IDEA project files (if you ever use it)
+.idea/
+*.iml
+
+# Eclipse project files (if used)
+.project
+.classpath
+.settings/
+
+# Output or build folders (if any)
+out/
+bin/
+build/
