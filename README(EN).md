@@ -1,11 +1,9 @@
-# "Java Tutorial" von w3schools 🧠☕  
-Dieses Projekt folgt dem [W3Schools Java Tutorial](https://www.w3schools.com/java/java_getstarted.asp).  
-Ich benutze die Checkliste, um meinen Fortschritt in jedem Abschnitt zu verfolgen.
-
-Zum Englishen README, klicke [hier](https://github.com/inspiringsource/w3schools_java_tutorial/blob/main/README(EN).md).
+# Java Learning Journey 🧠☕  
+This project follows the [W3Schools Java Tutorial](https://www.w3schools.com/java/java_getstarted.asp).  
+I use the checklist to track my progress through each section.
 
 
-## ✅ Fortschritts-Checkliste
+## ✅ Progress Checklist
 
 - [x] Java HOME
 - [x] Java Intro
@@ -58,14 +56,14 @@ Zum Englishen README, klicke [hier](https://github.com/inspiringsource/w3schools
 
 
 
-## 🧰 Werkzeuge:
+## 🧰 Tools Used
 
 - Java SE 8 (version 1.8.0_441)
 - IDE / code editor: VS Code
 - Terminal / Command Prompt
 - Git
 
-## Java ausführen:
+## To run the Java program:
 
 ```bash
 cd <directory>
@@ -74,7 +72,7 @@ java Main
 ```
 
 
-## 📌 Hinweise
+## 📌 Notes
 
-- Dieses Repository wird genutzt, um meinen Fortschritt durch das W3Schools Java Tutorial zu verfolgen.
-- Teil des **optional** ["Onboarding Programmieren"](https://www.fhnw.ch/de/studium/informatik/zulassung-anmeldung-vorbereitung/onboarding-programmieren) Kurses, der von der FHNW angeboten wird.
+- Using this repo to track my progress through the W3Schools Java tutorial.
+- Part of the **optional** ["Onboarding Programmieren"](https://www.fhnw.ch/de/studium/informatik/zulassung-anmeldung-vorbereitung/onboarding-programmieren) course offered by FHNW.
