@@ -30,7 +30,7 @@ I use the checklist to track my progress through each section.
     ├── Main.java
         └──Main.class
 ```
-- [ ] Java Data Types
+- [x] Java Data Types
 - [ ] Java Type Casting
 - [ ] Java Operators
 - [ ] Java Strings

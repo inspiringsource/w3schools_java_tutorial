@@ -7,8 +7,10 @@ public class Main {
         System.out.println("Hello: " + firstName);
 
         String lastName = "Doe";
-        String fullName = firstName + lastName;
+        String fullName = firstName + " " + lastName;
+        char firstInitial = firstName.charAt(0);
         System.out.println("Full name: " + fullName);
+        System.out.println("First name letter: " + firstInitial);
         System.out.println("# Numeric values and mathematical operator:");
         int myNum = 15;
         // Print the variable
@@ -18,9 +20,9 @@ public class Main {
         myNum = 20;
         // Print the new value of the variable
         System.out.println("The new value of my Number is now changed to: " + myNum);
-        // Declare a new variable
-        int myNum2 = 5;
-        System.out.println("Adding numbers " + (myNum + myNum2));
+        // Declare a new float variable
+        float myNum2 = 5.5f;
+        System.out.println("20 + 5.5 = " + (myNum + myNum2));
         System.out.print("Add multiple variables x + y + z = ");
         int x = 5, y = 6, z = 50;
         System.out.println(x + y + z);
@@ -42,6 +44,8 @@ public class Main {
         System.out.println("Length is: " + length);
         System.out.println("Width is: " + width);
         System.out.println("Area of the rectangle is: " + area);
-
+        // Boolean variables
+        boolean isJavaFun = true;
+        System.out.println("Is Java fun? " + isJavaFun);
     }
 }
