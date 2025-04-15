@@ -10,17 +10,27 @@ I use the checklist to track my progress through each section.
 - [x] Java Intro
 - [x] Java Get Started
 ```
+.
+├── HelloWorld    
     ├── Main.java
         └──Main.class
 ```
 - [x] Java Syntax
 - [x] Java Output
 ```
+.
+├── JavaOutput
     ├── Main.java
         └──Main.class
 ```
-- [ ] Java Comments
-- [ ] Java Variables
+- [x] Java Comments
+- [x] Java Variables
+```
+.
+├── Variables
+    ├── Main.java
+        └──Main.class
+```
 - [ ] Java Data Types
 - [ ] Java Type Casting
 - [ ] Java Operators
@@ -54,6 +64,14 @@ I use the checklist to track my progress through each section.
 - IDE / code editor: VS Code
 - Terminal / Command Prompt
 - Git
+
+## To run the Java program:
+
+```bash
+cd <directory>
+javac Main.java
+java Main
+```
 
 ---
 
