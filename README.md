@@ -9,12 +9,16 @@ I use the checklist to track my progress through each section.
 - [x] Java HOME
 - [x] Java Intro
 - [x] Java Get Started
+```
     ├── Main.java
         └──Main.class
+```
 - [x] Java Syntax
 - [x] Java Output
+```
     ├── Main.java
         └──Main.class
+```
 - [ ] Java Comments
 - [ ] Java Variables
 - [ ] Java Data Types
@@ -30,6 +34,7 @@ I use the checklist to track my progress through each section.
 - [ ] Java Break/Continue
 - [ ] Java Arrays
 
+```
 .
 ├── direxample
 │   ├── file11.java
@@ -38,6 +43,7 @@ I use the checklist to track my progress through each section.
 ├── dir2example
 ├── .gitignore
 └── README.md
+````
 
 ---
 
