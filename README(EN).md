@@ -31,7 +31,7 @@ I use the checklist to track my progress through each section.
         └──Main.class
 ```
 - [x] Java Data Types
-- [ ] Java Type Casting
+- [x] Java Type Casting
 - [ ] Java Operators
 - [ ] Java Strings
 - [ ] Java Math

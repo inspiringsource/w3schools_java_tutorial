@@ -33,7 +33,7 @@ Zum Englishen README, klicke [hier](https://github.com/inspiringsource/w3schools
         └──Main.class
 ```
 - [x] Java Data Types
-- [ ] Java Type Casting
+- [x] Java Type Casting
 - [ ] Java Operators
 - [ ] Java Strings
 - [ ] Java Math
