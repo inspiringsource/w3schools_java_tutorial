@@ -1,3 +1,5 @@
+import java.util.Scanner;
+
 public class Main {
     public static void main(String[] args) {
         System.out.println(); // Print empty line
@@ -95,5 +97,31 @@ public class Main {
         System.out.println("# Java Boolean:");
         System.out.println(x > y);
         System.out.println(x < y);
+
+        // Java if...else
+        System.out.println();
+        System.out.println("# Java if...else:");
+        // Create a Scanner to read user input
+        Scanner scanner = new Scanner(System.in);
+        String input = "";
+
+        // yes no Loop
+        while (true) {
+            System.out.print("yes or no? ");
+            input = scanner.nextLine().trim().toLowerCase();
+
+            if (input.equals("yes")) {
+                System.out.println("You typed yes. Good choice.");
+                break;
+            } else if (input.equals("no")) {
+                System.out.println("You typed no. That works as well.");
+                break;
+            } else {
+                System.out.println("Please type 'yes' or 'no'.");
+            }
+        }
+
+        scanner.close();
+        
     }
 }

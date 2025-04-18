@@ -38,7 +38,7 @@ Zum Englishen README, klicke [hier](https://github.com/inspiringsource/w3schools
 - [x] Java Strings
 - [x] Java Math
 - [x] Java Booleans
-- [ ] Java If...Else
+- [x] Java If...Else
 - [ ] Java Switch
 - [ ] Java While Loop
 - [ ] Java For Loop

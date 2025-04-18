@@ -36,7 +36,7 @@ I use the checklist to track my progress through each section.
 - [x] Java Strings
 - [x] Java Math
 - [x] Java Booleans
-- [ ] Java If...Else
+- [x] Java If...Else
 - [ ] Java Switch
 - [ ] Java While Loop
 - [ ] Java For Loop
