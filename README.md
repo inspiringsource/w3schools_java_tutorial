@@ -34,10 +34,10 @@ Zum Englishen README, klicke [hier](https://github.com/inspiringsource/w3schools
 ```
 - [x] Java Data Types
 - [x] Java Type Casting
-- [ ] Java Operators
-- [ ] Java Strings
-- [ ] Java Math
-- [ ] Java Booleans
+- [x] Java Operators
+- [x] Java Strings
+- [x] Java Math
+- [x] Java Booleans
 - [ ] Java If...Else
 - [ ] Java Switch
 - [ ] Java While Loop

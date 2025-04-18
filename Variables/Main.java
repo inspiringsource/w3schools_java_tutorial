@@ -62,6 +62,38 @@ public class Main {
         System.out.println("# Narrowing Casting:");
         System.out.println(myDouble + " is a double"); 
         System.out.println(myNewInt + " is an int");
+        // Java Operators
+        System.out.println();
+        System.out.println("# Java Operators:");
+        int x2 = 2 + 3;
+        System.out.println(x2 + " is the sum of 2 and 3");
+        ++x2;
+        System.out.println(x2 + "++ Arithmetic Operators incremented x2 by 1");
+        if (x2 > 5) {
+            System.out.println(x2 + " x2 is now greater than 5");
+        } else {
+            System.out.println(x2 + " x2 is less than or equal to 5");
+        }
+        double pi = Math.PI; // Java's built-in value of pi
+        double rad = 360 / (2 * pi); // radian in degrees
+        // Print pi to 6 decimal places
+        System.out.printf("pi = %.6f%n", pi);
 
+        // Print the radian value
+        System.out.printf("1 rad = 360 degrees / (2 * pi) = %.2f degrees%n", rad);
+        // Java Strings
+        System.out.println("\n# Java Operators:");
+
+        String javaIsFunString = ("Is Java fun? \t" + isJavaFun + ". \n(All upper case)");
+        System.out.println(javaIsFunString.toUpperCase());
+        // Java Math
+        System.out.println();
+        System.out.println("# Java Math:");
+        System.out.println("The square root of 9 is: " + (int)(Math.sqrt(9)));
+        // Java Boolean
+        System.out.println();
+        System.out.println("# Java Boolean:");
+        System.out.println(x > y);
+        System.out.println(x < y);
     }
 }

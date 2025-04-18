@@ -32,10 +32,10 @@ I use the checklist to track my progress through each section.
 ```
 - [x] Java Data Types
 - [x] Java Type Casting
-- [ ] Java Operators
-- [ ] Java Strings
-- [ ] Java Math
-- [ ] Java Booleans
+- [x] Java Operators
+- [x] Java Strings
+- [x] Java Math
+- [x] Java Booleans
 - [ ] Java If...Else
 - [ ] Java Switch
 - [ ] Java While Loop
