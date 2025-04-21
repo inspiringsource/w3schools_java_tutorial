@@ -43,7 +43,7 @@ Zum Englishen README, klicke [hier](https://github.com/inspiringsource/w3schools
 - [x] Java While Loop
 - [x] Java For Loop
 - [x] Java Break/Continue
-- [ ] Java Arrays
+- [x] Java Arrays
 
 ```
 .

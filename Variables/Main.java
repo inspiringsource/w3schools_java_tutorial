@@ -176,10 +176,39 @@ public class Main {
         while (b < 10) {
             System.out.println(b);
             b++;
-            
+
             if (b == 2) {
                 break;
             }
         }
+        // Java Arrays
+        System.out.println();
+        System.out.println("# Java Arrays:");
+        String[] myStatus = { "Awesome", "Cool", "Amazing", "Wonderful" };
+        // Randomly select an array element
+        int randomIndex = (int) (Math.random() * myStatus.length);
+        System.out.println("Randomly selected status: " + myStatus[randomIndex]);
+        // Print all array elements
+        System.out.println("All status:");
+        for (String status : myStatus) {
+            System.out.println(status);
+        }
+        // Java ArrayList
+        System.out.println();
+        System.out.println("# Java ArrayList:");
+        java.util.ArrayList<String> myArrayList = new java.util.ArrayList<String>();
+        myArrayList.add("Apple");
+        myArrayList.add("Banana");
+        myArrayList.add("Orange");
+        myArrayList.add("Date");
+        // Print all elements in the ArrayList
+        System.out.println("All elements in the ArrayList:");
+        for (String fruit : myArrayList) {
+            System.out.println(fruit);
+        }
+
+        System.out.println();
+        System.out.println("The End");
+
     }
 }

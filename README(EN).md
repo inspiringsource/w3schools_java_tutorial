@@ -41,7 +41,7 @@ I use the checklist to track my progress through each section.
 - [x] Java While Loop
 - [x] Java For Loop
 - [x] Java Break/Continue
-- [ ] Java Arrays
+- [x] Java Arrays
 
 ```
 .
