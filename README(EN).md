@@ -37,25 +37,18 @@ I use the checklist to track my progress through each section.
 - [x] Java Math
 - [x] Java Booleans
 - [x] Java If...Else
-- [ ] Java Switch
-- [ ] Java While Loop
-- [ ] Java For Loop
-- [ ] Java Break/Continue
+- [x] Java Switch
+- [x] Java While Loop
+- [x] Java For Loop
+- [x] Java Break/Continue
 - [ ] Java Arrays
 
 ```
 .
-├── direxample
-│   ├── file11.java
-│   ├── file12.java
-│   └── file13.java
-├── dir2example
 ├── .gitignore
 ├── README(EN).md
 └── README.md
-```
-
-
+``` 
 
 ## 🧰 Tools Used
 

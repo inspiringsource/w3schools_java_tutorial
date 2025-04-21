@@ -20,7 +20,7 @@ public class Main {
         int myNum = 15;
         // Print the variable
         System.out.println("The value of my Number is: " + myNum);
-        
+
         // Change the value of the variable
         myNum = 20;
         // Print the new value of the variable
@@ -38,14 +38,15 @@ public class Main {
         System.out.println("Minutes in an hour: " + minutesPerHour);
         System.out.println();
         System.out.println("# Calculate the Area of a Rectangle:");
-        
+
         int length = 4;
         int width = 6;
         int area;
 
         // Calculate the area of a rectangle
         area = length * width;
-        System.out.println(String.format("Calculating the area of a rectangle with length %d and width %d", length, width));
+        System.out.println(
+                String.format("Calculating the area of a rectangle with length %d and width %d", length, width));
         // Print Area
         System.out.println("Area of the rectangle is: " + area);
         // Boolean variables
@@ -56,13 +57,13 @@ public class Main {
         double myDouble = myInt; // Automatic casting: int to double
         System.out.println();
         System.out.println("# Widening Casting:");
-        
-        System.out.println(myInt + "is an int");      // Outputs 9
-        System.out.println(myDouble + "is an double");   // Outputs 9.0
+
+        System.out.println(myInt + "is an int"); // Outputs 9
+        System.out.println(myDouble + "is an double"); // Outputs 9.0
         int myNewInt = (int) myDouble; // Manual casting: double to int
         System.out.println();
         System.out.println("# Narrowing Casting:");
-        System.out.println(myDouble + " is a double"); 
+        System.out.println(myDouble + " is a double");
         System.out.println(myNewInt + " is an int");
         // Java Operators
         System.out.println();
@@ -91,7 +92,7 @@ public class Main {
         // Java Math
         System.out.println();
         System.out.println("# Java Math:");
-        System.out.println("The square root of 9 is: " + (int)(Math.sqrt(9)));
+        System.out.println("The square root of 9 is: " + (int) (Math.sqrt(9)));
         // Java Boolean
         System.out.println();
         System.out.println("# Java Boolean:");
@@ -122,6 +123,63 @@ public class Main {
         }
 
         scanner.close();
-        
+        // Java switch
+        System.out.println();
+        System.out.println("# Java switch:");
+        int day = 4;
+        switch (day) {
+            case 1:
+                System.out.println("Montag");
+                break;
+            case 2:
+                System.out.println("Dienstag");
+                break;
+            case 3:
+                System.out.println("Mitwoch");
+                break;
+            case 4:
+                System.out.println("Donnertag");
+                break;
+            case 5:
+                System.out.println("Freitag");
+                break;
+            case 6:
+                System.out.println("Samstag");
+                break;
+            case 7:
+                System.out.println("Sonntag");
+                break;
+            default:
+                System.out.println("Invalid day");
+        }
+        // Java while loop
+        System.out.println();
+        System.out.println("# Java while loop:");
+        int i = 0;
+        while (i < 5) {
+            System.out.println("i is: " + i);
+            i++;
+        }
+        // Java for loop and Nested for loop
+        System.out.println();
+        System.out.println("# Java Nested for loop:");
+        for (int j = 0; j < 3; j++) {
+            for (int k = 0; k < 3; k++) {
+                System.out.println("j is (outerloop): " + j + ", k (innerloop) is: " + k);
+            }
+        }
+        // Java Break and Continue
+        System.out.println();
+        System.out.println("# Java Break and Continue:");
+        System.out.println("We break the loop when b = 2");
+        int b = 0;
+        while (b < 10) {
+            System.out.println(b);
+            b++;
+            
+            if (b == 2) {
+                break;
+            }
+        }
     }
 }
