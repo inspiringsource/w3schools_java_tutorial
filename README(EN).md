@@ -1,9 +1,9 @@
-# Java Learning Journey 🧠☕  
+# Java Learning Journey  
 This project follows the [W3Schools Java Tutorial](https://www.w3schools.com/java/java_getstarted.asp).  
 I use the checklist to track my progress through each section.
 
 
-## ✅ Progress Checklist
+## Progress Checklist
 
 - [x] Java HOME
 - [x] Java Intro
@@ -50,7 +50,7 @@ I use the checklist to track my progress through each section.
 └── README.md
 ``` 
 
-## 🧰 Tools Used
+## Tools Used
 
 - Java SE 8 (version 1.8.0_441)
 - IDE / code editor: VS Code
@@ -66,7 +66,7 @@ java Main
 ```
 
 
-## 📌 Notes
+## Notes
 
 - Using this repo to track my progress through the W3Schools Java tutorial.
 - Part of the **optional** ["Onboarding Programmieren"](https://www.fhnw.ch/de/studium/informatik/zulassung-anmeldung-vorbereitung/onboarding-programmieren) course offered by FHNW.
